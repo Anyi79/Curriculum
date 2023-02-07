@@ -1,0 +1,113 @@
+@font-face {
+font-family:'Inter-ExtraLight';
+    src: url(./static/Inter-ExtraLight.ttf) format('truetype');
+    }
+
+body {
+    font-family:'Inter-ExtraLight';
+    height: 200vh;
+    width: 100vw;
+}
+
+.box-container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(253, 251, 251);
+}
+.granate-box{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 196px;
+    height: 801px;
+    left: 13px;
+    top: 41px;
+    background: #632F2F;
+    border: 1px solid #FFFBFB;
+}
+
+.photo{
+    position: absolute;
+    top: 60px; 
+    left: 50px;
+}
+.imgRedonda {
+    width:120px;
+    height:120px;
+    border-radius:60px;
+}
+.info-box{
+    position: absolute;
+    width: 157px;
+    height: 136px;
+    left: 31px;
+    top: 399px;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: justify;
+
+    color: white;
+}
+.grey-box{
+    position: absolute;
+    width: 154px;
+    height: 171px;
+    left: 31px;
+    top: 225px;
+
+    text-align: justify;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 11px;
+    color: white;
+}
+.bi-phone{
+    text-align: right;
+    padding-right: 1rem;
+}
+.bi-envelope{
+    text-align: right;
+    padding-right: 1rem;    
+}
+.bi-linkedin{
+    text-align: right;
+    padding-right: 1rem;     
+}
+.bi-facebook{
+    text-align: right;
+    padding-right: 1rem;      
+}
+.formac{
+    position: absolute;
+    width: 134px;
+    height: 274px;
+    left: 31px;
+    top: 556px;
+    color: white;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.name{
+    position: absolute;
+    width: 298px;
+    height: 58px;
+    left: 246px;
+    top: 65px;
+    color: #532F2F;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+}
